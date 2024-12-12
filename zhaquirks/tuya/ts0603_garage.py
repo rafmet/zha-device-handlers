@@ -1,4 +1,4 @@
-"""Tuya garage door opener"""
+"""Tuya garage door opener."""
 
 from zigpy.quirks.v2.homeassistant.binary_sensor import BinarySensorDeviceClass
 
