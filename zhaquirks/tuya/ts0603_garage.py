@@ -1,10 +1,10 @@
 """Tuya garage door opener."""
 
 from zigpy.quirks.v2.homeassistant.binary_sensor import BinarySensorDeviceClass
-
-from zhaquirks.tuya.builder import TuyaQuirkBuilder
-from zhaquirks.tuya import TUYA_CLUSTER_ID
 import zigpy.types as t
+
+from zhaquirks.tuya import TUYA_CLUSTER_ID
+from zhaquirks.tuya.builder import TuyaQuirkBuilder
 
 (
     TuyaQuirkBuilder("_TZE608_fmemczv1", "TS0603")
